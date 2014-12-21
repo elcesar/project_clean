@@ -26,7 +26,8 @@ How to use
 ============= 
 The R script conteins 02 functions:
 - merge_files. Objective.  Merge the data from test and train source and calculate the mean from each column
-- clean_data. Objective. read the source files and obtain only the selected columns and rename the column names and the activity labels with descriptive names. The output will be used in the merge_files function.
+- clean_data. Objective. read the source files and obtain only the selected columns and rename the column names and the activity labels with descriptive names.
+The output will be used in the merge_files function.
 - 
 To execute. Run the merge_files() function. using the default parameters, to generate output.txt with the mean of each variable group by Subject and Activity.
 
