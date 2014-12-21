@@ -22,4 +22,11 @@ R script called run_analysis.R that does the following.
  - Appropriately labels the data set with descriptive variable names. 
  - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
  
- 
+How to use
+============= 
+The R script conteins 02 functions:
+- 01. merge_files.
+  Objective. Merge the data form test and train source and calculate the mean from each column
+
+- 02. clean_data
+  Objective. read the soure files and obtein only the selected columns and rename the column names and the activity labels with descriptive names. The output will be used in the merge_files function. 
