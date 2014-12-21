@@ -25,8 +25,5 @@ R script called run_analysis.R that does the following.
 How to use
 ============= 
 The R script conteins 02 functions:
-- 01. merge_files.
-  Objective. Merge the data form test and train source and calculate the mean from each column
-
-- 02. clean_data
-  Objective. read the soure files and obtein only the selected columns and rename the column names and the activity labels with descriptive names. The output will be used in the merge_files function. 
+- merge_files. Objective.  Merge the data from test and train source and calculate the mean from each column
+- clean_data. Objective. read the source files and obtain only the selected columns and rename the column names and the activity labels with descriptive names. The output will be used in the merge_files function.
